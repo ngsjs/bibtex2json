@@ -5,17 +5,17 @@ A JavaScript library that parses BibTeX parser. Forked from
 
 
 ## Using in Browser
-Include bibtexParse.js and call 
+Include bibtex2json.js and call 
 
 ```
 bibtexParse.toJSON('@article{sample1,title={sample title}}');
 ```
 
 ## Using in [Node.js](http://nodejs.org/)
-Install     ```npm install bibtex-parse-js```
+Install     ```npm install bibtex2json```
 
 ```
-var bibtexParse = require('bibtex-parse-js');
+var bibtexParse = require('bibtex2json');
 
 var sample = bibtexParse.toJSON('@article{sample1,title={sample title}}');
 
