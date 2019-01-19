@@ -1,21 +1,17 @@
 {
-  "name": "bibtex-parse-js",
-  "version": "0.0.25",
+  "name": "bibtex2json",
+  "version": "0.1.0",
   "description": "A JavaScript library that parses BibTeX to JSON",
-  "main": "bibtexParse.js",
+  "main": "src/bibtex2json.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "ava": "^0.23.0",
     "xml2js": "*"
-  },
-  "scripts": {
-    "test": "ava"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ORCID/bibtexParseJs"
+    "url": "https://github.com/ngsjs/bibtex2json"
   },
   "keywords": [
     "bibtex",
@@ -23,10 +19,10 @@
     "javascript",
     "parser"
   ],
-  "author": "rcpeters",
+  "author": "Jianfeng Li",
   "license": "MIT",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/ORCID/bibtexParseJs/issues"
+    "url": "https://github.com/ngsjs/bibtex2json/issues"
   }
 }
